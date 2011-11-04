@@ -1,0 +1,31 @@
+.games
+  %h1 There are currently #{@games.size} running games on ficsr
+  %table.running
+    %thead
+      %th
+        number
+      %th
+        white_handle
+      %th
+        white_rating
+      %th
+        black_handle
+      %th
+        black_rating
+      %th
+        move_number
+    - @games.each do |game|
+      %tr
+        %td
+          = game.number
+        %td
+          = game.white_handle
+        %td
+          = game.white_rating
+        %td
+          = game.black_handle
+        %td
+          = game.black_rating
+        %td
+          = game.move_number
+

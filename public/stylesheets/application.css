@@ -1,0 +1,15 @@
+/* line 1, ../../app/assets/stylesheets/application.scss */
+.header {
+  text-align: center;
+}
+
+/* line 4, ../../app/assets/stylesheets/application.scss */
+.games {
+  margin-left: 200px;
+}
+
+/* line 8, ../../app/assets/stylesheets/application.scss */
+.running {
+  text-align: left;
+  width: 70%;
+}
